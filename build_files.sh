@@ -3,14 +3,14 @@
 set -e
 
 # Install project dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Collect static files
-python manage.py collectstatic --noinput --clear
+python3 manage.py collectstatic --noinput --clear
 
 # Make migrations
-python manage.py makemigrations
+python3 manage.py makemigrations
 
 # Apply migrations
-python manage.py migrate
+python3 manage.py migrate
 
