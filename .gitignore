@@ -15,7 +15,7 @@ __pycache__/
 
 # Django static files #
 # staticfiles/
-# static/
+static/
 
 # Django translations #
 *.mo
