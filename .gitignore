@@ -14,7 +14,7 @@ __pycache__/
 */migrations/*.pyc
 
 # Django static files #
-# staticfiles/
+staticfiles/
 # static/
 
 # Django translations #
